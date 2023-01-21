@@ -4,30 +4,99 @@
 }
 .main {
   width: 100%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
     url(/images/bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 109vh;  
+  height: 109vh;
 }
-.navbar{
-    width: 1200px;
-    height: 75px;
-    margin: auto;
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+.logo {
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+ul li a {
+  text-decoration: none;
+  color: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+  color: #ff7200;
+}
+,search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
 
 }
-.icon{
+.srch{
+    font-family: 'Times New Roman', Times, serif;
     width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #ffff;
+    border-right: none;
+    font-size: 16px;
     float: left;
-    height: 70px;
+    padding: 15px;
+    border-bottom: 5px;
+    border-top-left-radius: 5px;
+    
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 14px;
+    color: #ffff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 5px;
 
 }
-.logo{
-    color: #ff7200;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
+.srch:focus{
+    outline: 0
+}
+.srch:focus{
+    outline: 1;
 }
